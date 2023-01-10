@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84ac9520.css",
+    "main.js": "/static/js/main.cb14ae50.js",
+    "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
+    "static/media/diffuse.jpg": "/static/media/diffuse.d4470cce8a072e177594.jpg",
+    "static/media/grafica.png": "/static/media/grafica.ef36dff21e68a53b69d0.png",
+    "static/media/world-line.png": "/static/media/world-line.4283a15209ca2696d41a.png",
+    "static/media/download.jpg": "/static/media/download.1d4e8482f6a8326d94db.jpg",
+    "static/media/bg-hero.png": "/static/media/bg-hero.eeb121cd35edeb5f142c.png",
+    "static/media/primerportf.jpeg": "/static/media/primerportf.aed61188e1cf8a86d889.jpeg",
+    "static/media/wifnix-home.png": "/static/media/wifnix-home.c31e53fa5911654dd48b.png",
+    "static/media/carrodecompras.jpeg": "/static/media/carrodecompras.93cff4541c0f910906d2.jpeg",
+    "static/media/conecty.jpeg": "/static/media/conecty.cb6a1746be725caa396f.jpeg",
+    "static/media/portafolio-wp.jpeg": "/static/media/portafolio-wp.95206bc66cfd13d58c6e.jpeg",
+    "static/media/contour2_1.png": "/static/media/contour2_1.8d6ed1b53d38ea119bd4.png",
+    "static/media/contour1_1.png": "/static/media/contour1_1.d43c9f7319e572821a0f.png",
+    "static/media/grid.svg": "/static/media/grid.56527739ad5edd2624a27f8f4f6781cd.svg",
+    "index.html": "/index.html",
+    "main.84ac9520.css.map": "/static/css/main.84ac9520.css.map",
+    "main.cb14ae50.js.map": "/static/js/main.cb14ae50.js.map",
+    "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84ac9520.css",
+    "static/js/main.cb14ae50.js"
+  ]
+}
