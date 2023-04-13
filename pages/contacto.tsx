@@ -1,30 +1,21 @@
-import Head from 'next/head'
-import Nav from '@component/components/layout/navbar'
-import Hero from '@component/components/home/header'
-import Details from '@component/components/home/details'
-import Social from '@component/components/home/social'
+import Form from '@component/components/contacto/formulario'
 import Footer from '@component/components/layout/footer'
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import Nav from '@component/components/layout/navbar'
+import Head from 'next/head'
+import Image from 'next/image'
+import { useContext } from 'react'
+import { Idioma } from '../components/context/languaje'
+import es from '../lib/texts/es.json'
+import en from '../lib/texts/en.json'
 
-export default function Home() {
-  const router = useRouter()
+function Contact() {
+  const { language } = useContext<any>(Idioma)
+  const texts = language === 'es' ? es : en
 
-  useEffect(() => {
-    const hash = router.asPath.split('#')[1]
-    if (hash) {
-      const element = document.getElementById(hash)
-      if (element) {
-        setTimeout(() => {
-          element.scrollIntoView()
-        }, 1000)
-      }
-    }
-  }, [router.asPath])
   return (
-    <>
+    <div>
       <Head>
-        <title>Lucas Dev | Inicio</title>
+        <title>Lucas Dev | Contacto</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/logos/logo-blue.svg" />
         <link rel="canonical" href="https://lucasdev.com.ar" />
@@ -53,10 +44,24 @@ export default function Home() {
         />
       </Head>
       <Nav />
-      <Hero />
-      <Details />
-      <Social />
+      <div className="flex md:flex-row flex-col items-center justify-between">
+        <div className="grid place-items-center py-16 md:py-0 justify-center w-11/12 md:w-full lg:w-7/12 xl:w-8/12">
+          <p className="font-bold text-blue text-3xl mb-5 w-full m-auto text-center">
+            {texts.contact}
+          </p>
+          <Image
+            data-aos="zoom-in-up"
+            src={'/assets/imagenes/conector.png'}
+            width={400}
+            height={100}
+            alt="imagen"
+          />
+        </div>
+        <Form />
+      </div>
       <Footer />
-    </>
+    </div>
   )
 }
+
+export default Contact

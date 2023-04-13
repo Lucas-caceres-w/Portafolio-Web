@@ -1,0 +1,24 @@
+{
+  "string": [
+    "Desarrollador Web Fullstack",
+    "Desarrollador Frontend",
+    "Desarrollador Backend"
+  ],
+  "detailsTitle": "¿Que ofrezco?",
+  "detailOne": "Webs a medida",
+  "descripcionOne": "Si creamos una web a medida para su proyecto, obtendrá un sitio web personalizado y único que se adapta específicamente a las necesidades de su negocio y le ayudará a destacarse de la competencia. Esto puede mejorar la usabilidad y la accesibilidad del sitio web, lo que puede llevar a una mejor experiencia del usuario.",
+  "buttonOne": "Ejemplos",
+  "detailTwo": "Optimización al maximo!",
+  "descripcionTwo": "En resumen, si optimizamos su sitio web al máximo, lograremos que el sitio cargue más rápido, sea más fácil de usar para los visitantes y esté optimizado para su uso en dispositivos móviles. Esto puede ayudar a mejorar la satisfacción del usuario, aumentar el tiempo que pasan en su sitio y mejorar sus conversiones.",
+  "buttonTwo": "Contacto",
+  "detailThree": "Proyectos escalables",
+  "descripcionThree": "Dado que trabajo con un framework completo de Javascript, como Next JS, cualquier proyecto es totalmente escalable a futuro y de esta manera actualizar tu sitio siempre que sea necesario para expandir el proyecto. Si desarrollamos un sitio web escalable para su proyecto, estará diseñado para manejar el crecimiento a medida que su negocio se expanda y más personas visiten su sitio. Esto significa que su sitio web no experimentará problemas técnicos y continuará funcionando sin problemas a medida que más personas lo visiten.",
+  "buttonThree": "Habilidades",
+  "socialTitle": "¿Como contactarme?",
+  "WorksTitle": "Mis trabajos",
+  "Conecty": "Landing page para el producto Conecty, de la empresa Eywa, Se trata de un SIM card que se adapta a cualquier dispositivo con tecnología de conectividad M2M.",
+  "Wifnix": "Landing page para la empresa Puertorriqueña Wifnix que ofrece servicios de IT, Network, CCTV, Diseño Web y mucho mas.",
+  "Pelis": "Aplicación de peliculas, en la que se detalla la informacion de cada una incluyendo un trailer que provee esta API de ThemovieDB.",
+  "Glass": "Application for the administration of users and products, in order to use it in a tester widget, in this case lenses, with the JeelizVTO library.",
+  "contact": "Enviame tu mensaje o propuesta!"
+}

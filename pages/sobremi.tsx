@@ -1,30 +1,13 @@
-import Head from 'next/head'
-import Nav from '@component/components/layout/navbar'
-import Hero from '@component/components/home/header'
-import Details from '@component/components/home/details'
-import Social from '@component/components/home/social'
+import Skills from '@component/components/about/skills'
 import Footer from '@component/components/layout/footer'
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import Nav from '@component/components/layout/navbar'
+import Head from 'next/head'
 
-export default function Home() {
-  const router = useRouter()
-
-  useEffect(() => {
-    const hash = router.asPath.split('#')[1]
-    if (hash) {
-      const element = document.getElementById(hash)
-      if (element) {
-        setTimeout(() => {
-          element.scrollIntoView()
-        }, 1000)
-      }
-    }
-  }, [router.asPath])
+function About() {
   return (
-    <>
+    <div>
       <Head>
-        <title>Lucas Dev | Inicio</title>
+        <title>Lucas Dev | Sobre mi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/logos/logo-blue.svg" />
         <link rel="canonical" href="https://lucasdev.com.ar" />
@@ -53,10 +36,10 @@ export default function Home() {
         />
       </Head>
       <Nav />
-      <Hero />
-      <Details />
-      <Social />
+      <Skills />
       <Footer />
-    </>
+    </div>
   )
 }
+
+export default About
