@@ -33,7 +33,10 @@ function Social() {
               target="_blank"
             >
               <Tooltip title="WhatsApp" placement="top-end" arrow>
-                <WhatsApp className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200" />
+                <WhatsApp
+                  fontSize="large"
+                  className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200"
+                />
               </Tooltip>
             </a>
           </div>
@@ -44,7 +47,10 @@ function Social() {
               target="_blank"
             >
               <Tooltip title="Linkedin" placement="top-end" arrow>
-                <LinkedIn className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200" />
+                <LinkedIn
+                  fontSize="large"
+                  className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200"
+                />
               </Tooltip>
             </a>
           </div>
@@ -55,7 +61,10 @@ function Social() {
               target="_blank"
             >
               <Tooltip title="Instagram" placement="top-end" arrow>
-                <Instagram className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200" />
+                <Instagram
+                  fontSize="large"
+                  className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200"
+                />
               </Tooltip>
             </a>
           </div>
@@ -66,7 +75,10 @@ function Social() {
               target="_blank"
             >
               <Tooltip title="Facebook" placement="top-end" arrow>
-                <Facebook className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200" />
+                <Facebook
+                  fontSize="large"
+                  className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200"
+                />
               </Tooltip>
             </a>
           </div>
@@ -77,7 +89,10 @@ function Social() {
               target="_blank"
             >
               <Tooltip title="Email" placement="top-end" arrow>
-                <Email className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200" />
+                <Email
+                  fontSize="large"
+                  className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200"
+                />
               </Tooltip>
             </a>
           </div>
@@ -88,7 +103,10 @@ function Social() {
               target="_blank"
             >
               <Tooltip title="Github" placement="top-end" arrow>
-                <GitHub className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200" />
+                <GitHub
+                  fontSize="large"
+                  className="text-4xl text-blue cursor-pointer hover:text-pink transition duration-200"
+                />
               </Tooltip>
             </a>
           </div>

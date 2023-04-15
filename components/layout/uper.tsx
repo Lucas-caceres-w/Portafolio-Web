@@ -31,7 +31,7 @@ function Uper() {
           : 'invisible'
       }
     >
-      <KeyboardArrowUp className="text-5xl text-neutral-300" />
+      <KeyboardArrowUp fontSize='large' className="text-5xl text-neutral-300" />
     </div>
   )
 }
