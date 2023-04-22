@@ -28,7 +28,7 @@ function Uper() {
       className={
         scroll
           ? 'fixed bg-blue rounded-2xl cursor-pointer hover:bg-pink bottom-4 right-4 z-20 transition-all duration-200'
-          : 'invisible'
+          : 'hidden'
       }
     >
       <KeyboardArrowUp fontSize='large' className="text-5xl text-neutral-300" />

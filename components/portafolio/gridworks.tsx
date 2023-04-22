@@ -52,7 +52,7 @@ function ContainerWorks() {
       <p className="py-16 text-center font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-300">
         {texts.WorksTitle}
       </p>
-      <article className="grid gap-y-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-11/12 sm:10/12 md:w-9/12 justify-center justify-items-center items-center m-auto">
+      <article className="grid gap-y-4 md:gap-y-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-11/12 sm:10/12 md:w-9/12 justify-center justify-items-center items-center m-auto">
         {works.map((e, index) => {
           return (
             <Card

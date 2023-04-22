@@ -61,7 +61,7 @@ function Form() {
   }
 
   return (
-    <section className="flex justify-center pt-6 h-[545px] w-full md:w-full lg:w-5/12 xl:w-4/12 bg-neutral-600">
+    <section className="flex justify-center pt-6 h-[600px] w-full md:w-full lg:w-5/12 xl:w-4/12 bg-neutral-600">
       <div className="flex flex-col items-center w-11/12 h-10/12 justify-between">
         <Image
           className="py-4"
