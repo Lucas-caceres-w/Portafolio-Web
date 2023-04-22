@@ -38,6 +38,13 @@ function ContainerWorks() {
       enlace: 'https://wifnix.com/',
       image: '/assets/imagenes/wifnix.png',
     },
+    {
+      title: 'Grafica FyC',
+      description: texts.GraficaFyC,
+      repository: 'https://github.com/Lucas-caceres-w/GraficaFyC',
+      enlace: 'https://grafica-fyc.netlify.app/',
+      image: '/assets/imagenes/grafica.png',
+    },
   ]
 
   return (
