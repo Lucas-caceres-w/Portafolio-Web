@@ -13,7 +13,7 @@ function Card(props: PropsCards) {
   return (
     <div
       data-aos="fade-left"
-      className="bg-black2 w-60 h-96 pb-2 shadow-md shadow-black2 rounded-md hover:translate-y-1 transition-all duration-150"
+      className="bg-black2 w-56 md:w-60 lg:w-64 xl:w-68 h-96 pb-2 shadow-md shadow-black2 rounded-md hover:translate-y-1 transition-all duration-150"
     >
       <div className="h-36 mb-5 overflow-hidden">
         <Image width={300} height={200} src={props.srcImage} alt="image" />
