@@ -10,6 +10,13 @@ function ContainerWorks() {
   const texts = language === "es" ? es : en;
   const works = [
     {
+      title: "Dragon CORP",
+      description: texts.Kingdom,
+      repository: "https://github.com/Lucas-caceres-w/kingdom-search",
+      enlace: "https://kingdom-search.vercel.app/",
+      image: "/assets/imagenes/kingdom.png",
+    },
+    {
       title: "Seky inmoviliaria",
       description: texts.Seky,
       repository: "",

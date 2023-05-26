@@ -22,5 +22,6 @@
   "Glass": "Aplicacion para la administracion de usuarios y productos, con el fin de usar en un widget de probador de, en este caso lentes, con la libreria JeelizVTO.",
   "contact": "Enviame tu mensaje o propuesta!",
   "GraficaFyC": "Landing page para una empresa enfocada principalmente en la publicidad visual a trav\u00e9s de la carteler\u00eda, folleter\u00eda y publicidad digital",
-  "Seky": "Seky Propiedades, es una inmobiliaria comercial ubicada en el centro geográfico de la Ciudad de Buenos Aires que ofrece: Inmuebles Industriales: Alquiler y Venta de Depósitos, Galpones y Edificios Industriales ubicados principalmente en la Zona Centro y Sur de la Capital Federal."
+  "Seky": "Seky Propiedades, es una inmobiliaria comercial ubicada en el centro geográfico de la Ciudad de Buenos Aires que ofrece: Inmuebles Industriales: Alquiler y Venta de Depósitos, Galpones y Edificios Industriales ubicados principalmente en la Zona Centro y Sur de la Capital Federal.",
+  "Kingdom": "Proyecto para importar y clasificar las contribuciones de tierra realizadas por los jugadores de League of Kingdoms utilizando los datos solicitados de la API de LOK"
 }
