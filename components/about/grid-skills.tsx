@@ -17,6 +17,16 @@ const data = [
     image: '/assets/imagenes/javascript.png',
   },
   {
+    title: 'sql',
+    color: 'sql',
+    image: '/assets/imagenes/sql.webp',
+  },
+  {
+    title: 'php',
+    color: 'php',
+    image: '/assets/imagenes/php.png',
+  },
+  {
     title: 'tailwind',
     color: 'tailwind',
     image: '/assets/imagenes/tailwind.png',

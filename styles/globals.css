@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: '--open-sans';
+  font-family: "--open-sans";
 }
 
 body::-webkit-scrollbar {
@@ -215,6 +215,16 @@ body {
   transform: translateY(5px) !important;
 }
 
+.php:hover {
+  background-color: #6243de;
+  transform: translateY(5px) !important;
+}
+
+.sql:hover {
+  background-color: #3a82ef;
+  transform: translateY(5px) !important;
+}
+
 .html,
 .css,
 .javascript,
@@ -224,6 +234,9 @@ body {
 .sass,
 .tailwind,
 .github,
+.php,
+.bootstrap,
+.sql,
 .typescript {
   transition: all 0.3s ease-in-out !important;
 }
