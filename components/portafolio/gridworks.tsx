@@ -10,6 +10,12 @@ function ContainerWorks() {
   const texts = language === "es" ? es : en;
   const works = [
     {
+      title: "Wifnix",
+      description: texts.Wifnix,
+      enlace: "https://wifnix-desarrollo.vercel.app/",
+      image: "/assets/imagenes/wifnix.png",
+    },
+    {
       title: "Dragon CORP",
       description: texts.Kingdom,
       repository: "https://github.com/Lucas-caceres-w/kingdom-search",
@@ -42,15 +48,8 @@ function ContainerWorks() {
       title: "Pelis Total",
       description: texts.Pelis,
       repository: "https://github.com/Lucas-caceres-w/pelis-total",
-      enlace: "https://pelis-total.vercel.app//",
+      enlace: "https://pelis-total.vercel.app/",
       image: "/assets/imagenes/pelis-total.png",
-    },
-    {
-      title: "Wifnix",
-      description: texts.Wifnix,
-      repository: "https://github.com/Lucas-caceres-w/Wifnix",
-      enlace: "https://wifnix.com/",
-      image: "/assets/imagenes/wifnix.png",
     },
     {
       title: "Grafica FyC",
