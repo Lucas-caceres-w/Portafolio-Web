@@ -154,75 +154,75 @@ body {
 
 .html:hover {
   background-color: #ec3900;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .css:hover {
   background-color: #065bff;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .javascript:hover {
   background-color: #f2f600;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .tailwind:hover {
   background-color: #0083ee;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .react:hover {
   background-color: #00bed8;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .next:hover {
   background-color: #000;
   color: #ededed;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .typescript:hover {
   background-color: #003acf;
   color: #ededed;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .git:hover {
   background-color: #c24600;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .node:hover {
   background-color: #006f0b;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .bootstrap:hover {
   background-color: #9d00c5;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .github:hover {
   background-color: #000;
   color: #ededed;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .sass:hover {
   background-color: #e339ff;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .php:hover {
   background-color: #6243de;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .sql:hover {
   background-color: #3a82ef;
-  transform: translateY(5px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .html,

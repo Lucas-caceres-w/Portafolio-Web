@@ -10,6 +10,13 @@ function ContainerWorks() {
   const texts = language === "es" ? es : en;
   const works = [
     {
+      title: "Alquilo pisos BA",
+      description: texts.Alquilopisos,
+      repository: "https://github.com/Lucas-caceres-w/GraficaFyC",
+      enlace: "https://alquilopisosba.com.ar/",
+      image: "/assets/imagenes/Alquilopisos.png",
+    },
+    {
       title: "Wifnix",
       description: texts.Wifnix,
       enlace: "https://wifnix-desarrollo.vercel.app/",
@@ -50,13 +57,6 @@ function ContainerWorks() {
       repository: "https://github.com/Lucas-caceres-w/pelis-total",
       enlace: "https://pelis-total.vercel.app/",
       image: "/assets/imagenes/pelis-total.png",
-    },
-    {
-      title: "Grafica FyC",
-      description: texts.GraficaFyC,
-      repository: "https://github.com/Lucas-caceres-w/GraficaFyC",
-      enlace: "https://grafica-fyc.netlify.app/",
-      image: "/assets/imagenes/grafica.png",
     },
   ];
 
