@@ -1,12 +1,13 @@
-import Link from 'next/link'
-import { useContext } from 'react'
-import { Idioma } from '../context/languaje'
-import es from '../../lib/texts/es.json'
-import en from '../../lib/texts/en.json'
+import Link from "next/link";
+import { useContext } from "react";
+import { Idioma } from "../context/languaje";
+import es from "../../lib/texts/es.json";
+import en from "../../lib/texts/en.json";
+import { Computer, Escalator, Speed } from "@mui/icons-material";
 
 function Details() {
-  const { language } = useContext<any>(Idioma)
-  const texts = language === 'es' ? es : en
+  const { language } = useContext<any>(Idioma);
+  const texts = language === "es" ? es : en;
 
   return (
     <main className="w-11/12 pt-10 sm:w-10/12 md:w-9/12 m-auto">
@@ -18,7 +19,8 @@ function Details() {
           data-aos="fade-right"
           className="card-home bg-black2 group/hover rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
         >
-          <p className="text-neutral-600 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+          <p className="text-neutral-600 flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+            <Computer />
             {texts.detailOne}
           </p>
           <p className="text-neutral-400 group-hover/hover:text-neutral-300 text-justify m-auto w-10/12 text-xs sm:text-sm md:text-base transition-all duration-500">
@@ -26,7 +28,7 @@ function Details() {
           </p>
           <div className="w-10/12 m-auto flex justify-end">
             <Link
-              href={'/portafolio'}
+              href={"/portafolio"}
               className="text-white text-base font-medium bg-blue px-4 py-2 rounded my-2 hover:bg-sky-500"
             >
               {texts.buttonOne}
@@ -37,7 +39,8 @@ function Details() {
           data-aos="fade-left"
           className="card-home bg-black2 group/hover rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
         >
-          <p className="text-neutral-600 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+          <p className="text-neutral-600 flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+            <Speed />
             {texts.detailTwo}
           </p>
           <p className="text-neutral-400 group-hover/hover:text-neutral-300 text-justify m-auto w-10/12 text-xs sm:text-sm md:text-base transition-all duration-500">
@@ -45,7 +48,7 @@ function Details() {
           </p>
           <div className="w-10/12 m-auto flex justify-end">
             <Link
-              href={'/contacto'}
+              href={"/contacto"}
               className="text-white text-base font-medium bg-blue px-4 py-2 rounded my-2 hover:bg-sky-500"
             >
               {texts.buttonTwo}
@@ -56,7 +59,8 @@ function Details() {
           data-aos="fade-up"
           className="card-home bg-black2 group/hover col-span-1 sm:col-span-2 rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
         >
-          <p className="text-neutral-600 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+          <p className="text-neutral-600 flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+            <Escalator />
             {texts.detailThree}
           </p>
           <p className="text-neutral-400 group-hover/hover:text-neutral-300 text-justify m-auto w-10/12 text-xs sm:text-sm md:text-base transition-all duration-500">
@@ -73,7 +77,7 @@ function Details() {
         </article>
       </section>
     </main>
-  )
+  );
 }
 
-export default Details
+export default Details;

@@ -45,7 +45,7 @@ function Nav() {
             />
           </Link>
         </div>
-        <div className="text-neutral-500 flex flex-row gap-2 items-center sm:gap-6">
+        <div className="text-neutral-500 flex flex-row gap-2 font-semibold items-center sm:gap-6">
           <Link
             className={
               ruta === "/"

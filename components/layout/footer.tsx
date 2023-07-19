@@ -1,8 +1,11 @@
 import {
+  Email,
   FacebookOutlined,
   Instagram,
   LinkedIn,
+  Person2Rounded,
   WhatsApp,
+  Work,
 } from "@mui/icons-material";
 import { useContext } from "react";
 import { Idioma } from "../context/languaje";
@@ -63,7 +66,8 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-left">
-          <p className="font-semibold text-gray-200 text-2xl">
+          <p className="font-semibold text-gray-200 text-2xl flex items-center">
+            <Person2Rounded />
             {language === "es" ? "Sobre mi" : "About me"}
           </p>
           <ul className="flex flex-col gap-2 mt-2 pl-5">
@@ -94,7 +98,8 @@ function Footer() {
           </ul>
         </div>
         <div className="flex flex-col items-left">
-          <p className="font-semibold text-gray-200 text-2xl">
+          <p className="font-semibold text-gray-200 text-2xl flex items-center">
+            <Email />
             {language === "es" ? "Contacto" : "Contact"}
           </p>
           <ul className="flex flex-col gap-2 mt-2 pl-5">
@@ -151,7 +156,8 @@ function Footer() {
           </ul>
         </div>
         <div className="flex flex-col items-left">
-          <p className="font-semibold text-gray-200 text-2xl">
+          <p className="font-semibold text-gray-200 text-2xl flex items-center">
+            <Work />
             {language === "es" ? "Trabajos" : "Works"}
           </p>
           <ul className="flex flex-col gap-2 mt-2 pl-5">
@@ -199,7 +205,7 @@ function Footer() {
         </div>
       </section>
       <div className="border-t-2 border-neutral-500 w-11/12 m-auto mt-6">
-        <p className="py-4 text-pink text-xl font-medium">
+        <p className="py-4 text-pink text-xl font-semibold">
           <span className="text-blue">Lucas Dev</span> © {year}
         </p>
       </div>
