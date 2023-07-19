@@ -33,7 +33,7 @@ function Footer() {
                 ? "Optimiza tus proyectos"
                 : "Optimize your projects"}
             </p>
-            <div className="flex flex-row gap-3 mt-1 font-black text-2xl">
+            <div className="flex flex-row gap-3 mt-1 justify-evenly font-black text-2xl">
               <a
                 href="https://www.facebook.com/LucasDev03/"
                 rel="noopener noreferrer"
@@ -66,7 +66,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-left">
-          <p className="font-semibold text-gray-200 text-2xl flex items-center">
+          <p className="font-semibold text-gray-200 text-2xl flex items-center gap-1">
             <Person2Rounded />
             {language === "es" ? "Sobre mi" : "About me"}
           </p>
@@ -98,7 +98,7 @@ function Footer() {
           </ul>
         </div>
         <div className="flex flex-col items-left">
-          <p className="font-semibold text-gray-200 text-2xl flex items-center">
+          <p className="font-semibold text-gray-200 text-2xl flex items-center gap-1">
             <Email />
             {language === "es" ? "Contacto" : "Contact"}
           </p>
@@ -156,7 +156,7 @@ function Footer() {
           </ul>
         </div>
         <div className="flex flex-col items-left">
-          <p className="font-semibold text-gray-200 text-2xl flex items-center">
+          <p className="font-semibold text-gray-200 text-2xl flex items-center gap-1">
             <Work />
             {language === "es" ? "Trabajos" : "Works"}
           </p>
@@ -206,7 +206,9 @@ function Footer() {
       </section>
       <div className="border-t-2 border-neutral-500 w-11/12 m-auto mt-6">
         <p className="py-4 text-pink text-xl font-semibold">
-          <span className="text-blue">Lucas Dev</span> © {year}
+          <span className="text-blue">Lucas Dev</span>{" "}
+          <span className="font-normal">©</span>{" "}
+          <span className="font-medium">{year}</span>
         </p>
       </div>
     </div>

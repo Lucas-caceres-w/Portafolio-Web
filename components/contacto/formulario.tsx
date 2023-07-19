@@ -78,40 +78,40 @@ function Form() {
           <div className="w-full relative">
             <input
               id="asunto"
-              className="rounded-sm placeholder:text-transparent bg-neutral-700 w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-900 outline-none text-neutral-400 peer"
+              className="rounded-sm placeholder:text-transparent bg-neutral-700 w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
               type={'text'}
               name="asunto"
               onChange={HandleChange}
-              placeholder="nada"
+              placeholder=" "
             />
             <label
               htmlFor="asunto"
-              className="absolute text-sm -top-5 left-0 text-pink peer-focus:text-sm 
-              peer-focus:-top-5 transition-all peer-focus:text-pink  
+              className="absolute ml-2 text-sm -top-5 left-0 text-blue peer-focus:text-sm 
+              peer-focus:-top-5 transition-all peer-focus:text-blue  
               font-medium pointer-events-none 
               peer-placeholder-shown:top-1 
               peer-placeholder-shown:text-base
-              peer-placeholder-shown:text-neutral-900"
+              peer-placeholder-shown:text-neutral-400"
             >
               {language === 'es' ? 'Asunto *' : 'Subject *'}
             </label>
           </div>
           <div className="w-full relative">
             <input
-              className="rounded-sm placeholder:text-transparent bg-neutral-700 w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-900 outline-none text-neutral-400 peer"
+              className="rounded-sm placeholder:text-transparent bg-neutral-700 w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
               type={'email'}
               name="email"
               onChange={HandleChange}
-              placeholder="nada"
+              placeholder=" "
             />
             <label
               htmlFor="mensaje"
-              className="absolute text-sm -top-5 left-0 text-pink peer-focus:text-sm 
-              peer-focus:-top-5 transition-all peer-focus:text-pink  
+              className="absolute ml-2 text-sm -top-5 left-0 text-blue peer-focus:text-sm 
+              peer-focus:-top-5 transition-all peer-focus:text-blue  
               font-medium pointer-events-none 
               peer-placeholder-shown:top-1 
               peer-placeholder-shown:text-base
-              peer-placeholder-shown:text-neutral-900"
+              peer-placeholder-shown:text-neutral-400"
             >
               {language === 'es' ? 'Correo *' : 'Email *'}
             </label>
@@ -121,21 +121,21 @@ function Form() {
               name="mensaje"
               placeholder="nada"
               onChange={TextAreaChange}
-              className="h-36 w-full placeholder:text-transparent resize-none rounded-sm bg-neutral-700 border-b-2 border-pink shadow-md shadow-neutral-900 outline-none text-neutral-400 peer"
+              className="h-36 w-full placeholder:text-transparent resize-none rounded-sm bg-neutral-700 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
             ></textarea>
             <label
               htmlFor="mensaje"
-              className="absolute text-sm -top-5 left-0 text-pink peer-focus:text-sm 
-              peer-focus:-top-5 transition-all peer-focus:text-pink  
+              className="absolute ml-2 text-sm -top-5 left-0 text-blue peer-focus:text-sm 
+              peer-focus:-top-5 transition-all peer-focus:text-blue  
               font-medium pointer-events-none 
               peer-placeholder-shown:top-1 
               peer-placeholder-shown:text-base
-              peer-placeholder-shown:text-neutral-900"
+              peer-placeholder-shown:text-neutral-400"
             >
               {language === 'es' ? 'Mensaje *' : 'Message *'}
             </label>
           </div>
-          <button className="bg-pink hover:bg-fuchsia-800 py-2 rounded text-white shadow-md shadow-neutral-900">
+          <button className="bg-pink hover:bg-fuchsia-800 py-2 rounded text-white shadow-md shadow-neutral-700">
             {language === 'es' ? 'Enviar' : 'Submit'}
           </button>
           {success && (
