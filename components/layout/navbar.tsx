@@ -3,6 +3,7 @@ import {
   ContactEmergencyRounded,
   HomeOutlined,
   HomeRounded,
+  Language,
   MailOutlineOutlined,
   MailRounded,
   WorkOutlineOutlined,
@@ -116,8 +117,9 @@ function Nav() {
               </span>
             </Tooltip>
           </Link>
-          <div className="rounded-full hover:bg-black1 w-8 h-8 grid place-items-center shadow hover:shadow-black1">
-            <button className="font-bold text-pink" onClick={CambiarLang}>
+          <div className="rounded-full shadow-sm cursor-pointer hover:shadow-black1 flex items-center gap-1 text-pink p-2" onClick={CambiarLang}>
+            <Language />
+            <button className="font-bold text-pink">
               {language === "es" ? "EN" : "ES"}
             </button>
           </div>
