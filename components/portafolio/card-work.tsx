@@ -11,7 +11,10 @@ interface PropsCards {
 
 function Card(props: PropsCards) {
   return (
-    <div
+    <a
+      href={props.enlace}
+      target="_blank"
+      rel="noopener noreferrer"
       /* data-aos="fade-left" */
       className="bg-black2 min-w-54 w-10/12 sm:w-54 md:w-60 lg:w-64 xl:w-68 h-96 pb-2 shadow-md shadow-black2 rounded-md hover:-translate-y-2 hover:scale-105 transition-all duration-150"
     >
@@ -33,14 +36,9 @@ function Card(props: PropsCards) {
         </div>
       </div>
       <div className="flex flex-row justify-between mt-2 text-gray-50 w-11/12 m-auto items-center">
-        <a
-          href={props.enlace}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-blue cursor-pointer"
-        >
+        {/* <a className="hover:text-blue cursor-pointer">
           <LinkTwoTone className="-rotate-45" />
-        </a>
+        </a> */}
         <a
           href={props.repository}
           target="_blank"
@@ -50,7 +48,7 @@ function Card(props: PropsCards) {
           {props.repository ? <GitHub /> : null}
         </a>
       </div>
-    </div>
+    </a>
   );
 }
 

@@ -12,7 +12,7 @@ function ContainerWorks() {
     {
       title: "Alquilo pisos BA",
       description: texts.Alquilopisos,
-      repository: "https://github.com/Lucas-caceres-w/GraficaFyC",
+      repository: "",
       enlace: "https://alquilopisosba.com.ar/",
       image: "/assets/imagenes/Alquilopisos.png",
     },
