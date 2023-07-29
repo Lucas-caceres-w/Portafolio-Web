@@ -14,7 +14,7 @@ function Hero() {
         <div className="w-full h-36 absolute top-0 bg-gradient-to-b from-neutral-900 to-neutral-600/10"></div>
         <div className="w-full h-36 absolute bottom-0 bg-gradient-to-b from-neutral-600/10 to-neutral-600"></div>
       </div>
-      <h1 className="z-10 text-5xl md:text-6xl lg:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue to-pink">
+      <h1 className="z-10 text-5xl md:text-6xl lg:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue to-pink animacion">
         Lucas Dev
       </h1>
       <p className="z-10 font-semibold text-sm md:text-2xl text-white">

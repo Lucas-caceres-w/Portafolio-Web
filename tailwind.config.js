@@ -16,6 +16,12 @@ module.exports = {
         black2: "#1c1c1c",
         black1: "#393939",
       },
+      keyframes: {
+        anime: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: ".6" },
+        },
+      },
     },
   },
   plugins: [

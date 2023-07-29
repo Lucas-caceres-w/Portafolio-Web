@@ -240,3 +240,36 @@ body {
 .typescript {
   transition: all 0.3s ease-in-out !important;
 }
+
+.animacion {
+  animation: title infinite 1.5s ease-in-out;
+}
+
+.letter:hover {
+  animation: letra 2s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+@keyframes title {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.76;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes letra {
+  0% {
+    transform: translate(-25%, 0);
+  }
+  50% {
+    text-shadow: 0 15px 40px rgba (0, 0, 0, 0.6);
+  }
+  100% {
+    transform: translate(33%, 0);
+  }
+}
