@@ -51,13 +51,6 @@ function ContainerWorks() {
       enlace: "https://conecty.com.ar/",
       image: "/assets/imagenes/conecty.png",
     },
-    {
-      title: "Pelis Total",
-      description: texts.Pelis,
-      repository: "https://github.com/Lucas-caceres-w/pelis-total",
-      enlace: "https://pelis-total.vercel.app/",
-      image: "/assets/imagenes/pelis-total.png",
-    },
   ];
 
   return (
