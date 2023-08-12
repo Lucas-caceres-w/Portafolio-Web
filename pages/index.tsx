@@ -32,12 +32,13 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           name="description"
-          content="Portafolio web, donde muestro mis trabajos realizados"
+          content="Desarrollador web full stack, Aqui puedes encontrar mis trabajos realizados, me especializo en javascript, react, next, node"
         />
         <meta name="theme-color" content="#007acc" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" property="og:title" content="LucasDev" />
         <meta property="og:image" content="/assets/imagenes/portada.png" />
+        <meta name="twitter:image" content="/assets/imagenes/portada.png" />
         <meta
           name="twitter:url"
           property="og:url"
@@ -46,11 +47,11 @@ export default function Home() {
         <meta
           name="twitter:description"
           property="og:description"
-          content="Portafolio web, donde muestro mis trabajos realizados"
+          content="Desarrollador web full stack, Aqui puedes encontrar mis trabajos realizados, me especializo en javascript, react, next, node"
         />
         <meta
           name="keywords"
-          content="desarrollador,web,diseño,development,javascript,api,next,react,desarrollo,paginas,portafolio,ecommerce,landing page,dashboard,administracion"
+          content="desarrollador,web,diseño,development,javascript,api,next,react,css,tailwind,paginas webs,php,frontend,fullstack,backend,desarrollo,paginas,portafolio,ecommerce,landing-page,dashboard,administracion"
         />
       </Head>
       <Nav />
