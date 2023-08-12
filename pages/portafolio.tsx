@@ -29,13 +29,15 @@ function Portafolio() {
   const ModalWork = ({ titulo, descripcion, imagen, link, tecs }: Modal) => {
     return (
       <div className="fixed z-50 w-full h-screen top-0 backdrop-blur-md transition-all delay-75 bg-neutral-900/60 grid place-items-center">
-        <section className="bg-neutral-800 !block w-11/12 md:w-10/12 xl:w-8/12 h-max md:h-[650px] relative rounded-md scale transition-all">
-          <IconButton
-            onClick={handleClose}
-            className="text-white z-50 absolute right-2 top-2"
-          >
-            <Close />
-          </IconButton>
+        <section
+          data-aos="zoom-in"
+          className="bg-neutral-800 w-11/12 md:w-10/12 xl:w-8/12 h-max md:h-[650px] relative rounded-md scale transition-all"
+        >
+          <div className="z-50 absolute right-2 top-2">
+            <IconButton onClick={handleClose}>
+              <Close className="text-white" />
+            </IconButton>
+          </div>
           <div className="flex flex-row flex-wrap md:flex-nowrap h-full gap-0 sm:gap-6">
             <div className="w-full md:w-2/4">
               {imagen ? (

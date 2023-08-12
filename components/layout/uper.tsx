@@ -27,11 +27,11 @@ function Uper() {
       onClick={scrollTop}
       className={
         scroll
-          ? 'fixed bg-blue rounded-full cursor-pointer hover:bg-pink bottom-4 right-4 z-20 transition-all duration-200 p-2'
+          ? 'fixed bg-blue rounded-full cursor-pointer hover:bg-pink bottom-4 right-4 z-20 transition-all duration-200 p-2 hover:animate-bounce transition-all'
           : 'hidden'
       }
     >
-      <KeyboardArrowUp fontSize='large' className="text-5xl text-neutral-300" />
+      <KeyboardArrowUp fontSize='large' className="text-4xl text-neutral-300" />
     </div>
   )
 }
