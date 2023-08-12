@@ -13,13 +13,15 @@ interface PropsCards {
 function Alternative(props: PropsCards) {
   const OpenWork = () => {
     props.modal();
-    props.info({
-      titulo: props.title,
-      descripcion: props.description,
-      imagen: props.srcImage,
-      link: props.enlace,
-      tecs: props.tecs,
-    });
+    setTimeout(() => {
+      props.info({
+        titulo: props.title,
+        descripcion: props.description,
+        imagen: props.srcImage,
+        link: props.enlace,
+        tecs: props.tecs,
+      });
+    }, 600);
   };
   return (
     <>

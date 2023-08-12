@@ -37,8 +37,8 @@ export default function Home() {
         <meta name="theme-color" content="#007acc" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" property="og:title" content="LucasDev" />
-        <meta property="og:image" content="/assets/imagenes/portada.png" />
         <meta name="twitter:image" content="/assets/imagenes/portada.png" />
+        <meta property="og:image" content="/assets/imagenes/portada.png" />
         <meta
           name="twitter:url"
           property="og:url"
