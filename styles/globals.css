@@ -140,18 +140,6 @@ body {
   background-position: 0%;
 }
 
-.MuiTooltip-tooltip {
-  background-color: #a20098;
-}
-
-.MuiTooltip-tooltipArrow {
-  background-color: #a20098;
-}
-
-.css-kudwh-MuiTooltip-arrow {
-  color: #a20098;
-}
-
 .html:hover {
   background-color: #ec3900;
   transform: translateY(-5px) !important;
