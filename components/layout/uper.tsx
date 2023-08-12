@@ -27,7 +27,7 @@ function Uper() {
       onClick={scrollTop}
       className={
         scroll
-          ? 'fixed bg-blue rounded-2xl cursor-pointer hover:bg-pink bottom-4 right-4 z-20 transition-all duration-200'
+          ? 'fixed bg-blue rounded-full cursor-pointer hover:bg-pink bottom-4 right-4 z-20 transition-all duration-200 p-2'
           : 'hidden'
       }
     >

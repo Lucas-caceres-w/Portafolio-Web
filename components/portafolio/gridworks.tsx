@@ -1,78 +1,91 @@
 import Card from "./card-work";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Idioma } from "../context/languaje";
 import es from "../../lib/texts/es.json";
 import en from "../../lib/texts/en.json";
-import { text } from "stream/consumers";
+import Alternative from "./alternative";
 
-function ContainerWorks() {
+function ContainerWorks({
+  modal,
+  setModal,
+  setInfo,
+}: {
+  modal: any;
+  setModal: any;
+  setInfo: any;
+}) {
   const { language } = useContext<any>(Idioma);
   const texts = language === "es" ? es : en;
   const works = [
     {
       title: "Alquilo pisos BA",
       description: texts.Alquilopisos,
-      repository: "",
       enlace: "https://alquilopisosba.com.ar/",
       image: "/assets/imagenes/Alquilopisos.png",
+      tecs: "html,tailwind,php",
     },
     {
       title: "Wifnix",
       description: texts.Wifnix,
       enlace: "https://wifnix-desarrollo.vercel.app/",
       image: "/assets/imagenes/wifnix.png",
+      tecs: "tailwind,nextjs,sql,material ui",
     },
     {
       title: "Dragon CORP",
       description: texts.Kingdom,
-      repository: "https://github.com/Lucas-caceres-w/kingdom-search",
       enlace: "https://kingdom-search.vercel.app/",
       image: "/assets/imagenes/kingdom.png",
+      tecs: "tailwind,nextjs",
     },
     {
       title: "Seky inmoviliaria",
       description: texts.Seky,
-      repository: "",
       enlace: "https://www.seky.com.ar/",
       image: "/assets/imagenes/seky-props.png",
+      tecs: "html,tailwind,react,nodejs,sql",
     },
     {
       title: "Glass Tester",
       description: texts.Glass,
-      repository: "",
       enlace:
         "https://glass-tester.vercel.app/glass-test/?sku=%2Foriginal_xcea3_1680550324974.json",
       image: "/assets/imagenes/glass.png",
+      tecs: "react,nextjs,material ui,sql",
     },
     {
       title: "Conecty IoT",
       description: texts.Conecty,
-      repository: "",
       enlace: "https://conecty.com.ar/",
       image: "/assets/imagenes/conecty.png",
+      tecs: "react,nextjs,css,bootstrap",
     },
   ];
 
   return (
-    <section className="mb-24">
-      <p className="py-16 text-center font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-300">
-        {texts.WorksTitle}
-      </p>
-      <article className="grid gap-y-4 md:gap-y-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-11/12 sm:10/12 md:w-9/12 justify-center justify-items-center items-center m-auto">
-        {works.map((e, index) => {
-          return (
-            <Card
-              key={index}
-              title={e.title}
-              srcImage={e.image}
-              description={e.description}
-              repository={e.repository && e.repository}
-              enlace={e.enlace}
-            />
-          );
-        })}
-      </article>
-    </section>
+    <>
+      <section className="mb-24">
+        <p className="py-16 text-center font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-300">
+          {texts.WorksTitle}
+        </p>
+        <section className="w-full px-1 sm:p-0 sm:w-11/12 m-auto grid grid-cols-1 sm:grid-cols-3 gap-x-4 gap-y-8 perso justify-items-center">
+          {works.map((e, index) => {
+            return (
+              <Alternative
+                key={index}
+                title={e.title}
+                srcImage={e.image}
+                description={e.description}
+                enlace={e.enlace}
+                tecs={e.tecs}
+                modal={() => setModal(!modal)}
+                info={setInfo}
+              />
+            );
+          })}
+        </section>
+      </section>
+    </>
   );
 }
 

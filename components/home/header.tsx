@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import es from "../../lib/texts/es.json";
 import en from "../../lib/texts/en.json";
 import Typed from "react-typed";

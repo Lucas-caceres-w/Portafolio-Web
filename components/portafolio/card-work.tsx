@@ -6,7 +6,7 @@ interface PropsCards {
   srcImage: string;
   description: string;
   enlace?: string;
-  repository?: string;
+  tecs?: string;
 }
 
 function Card(props: PropsCards) {
@@ -15,10 +15,9 @@ function Card(props: PropsCards) {
       href={props.enlace}
       target="_blank"
       rel="noopener noreferrer"
-      /* data-aos="fade-left" */
       className="bg-black2 min-w-54 w-10/12 sm:w-54 md:w-60 lg:w-64 xl:w-68 h-96 pb-2 shadow-md shadow-black2 rounded-md hover:-translate-y-2 hover:scale-105 transition-all duration-150"
     >
-      <div className="h-36 mb-5 overflow-hidden">
+      <div className="h-32 mb-5 overflow-hidden">
         <Image
           width={300}
           height={200}
@@ -36,17 +35,9 @@ function Card(props: PropsCards) {
         </div>
       </div>
       <div className="flex flex-row justify-between mt-2 text-gray-50 w-11/12 m-auto items-center">
-        {/* <a className="hover:text-blue cursor-pointer">
-          <LinkTwoTone className="-rotate-45" />
-        </a> */}
-        <a
-          href={props.repository}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-pink"
-        >
-          {props.repository ? <GitHub /> : null}
-        </a>
+        <p className="text-blue uppercase text-xs">
+          {props.tecs?.split(",").join(" , ")}
+        </p>
       </div>
     </a>
   );

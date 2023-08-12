@@ -84,23 +84,6 @@ function Nav() {
             </Tooltip>
           </Link>
           <Link
-            className={ruta === "/sobremi" ? "text-pink" : "hover:text-pink"}
-            href={"/sobremi"}
-          >
-            <Tooltip title={language === "es" ? "Habilidades" : "Skills"}>
-              <span className="flex flex-row gap-1 items-center">
-                {ruta === "/sobremi" ? (
-                  <ContactEmergencyRounded />
-                ) : (
-                  <ContactEmergencyOutlined />
-                )}
-                <p className="hidden sm:block">
-                  {language === "es" ? "Habilidades" : "Skills"}
-                </p>
-              </span>
-            </Tooltip>
-          </Link>
-          <Link
             className={ruta === "/contacto" ? "text-pink" : "hover:text-pink"}
             href={"/contacto"}
           >

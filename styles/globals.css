@@ -21,13 +21,13 @@ body::-webkit-scrollbar-track {
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
-  background: var(--bg-black);
+  background: #2d2d2d;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
+  background: #2a2a2a;
   border-radius: 10px;
 }
 
@@ -234,6 +234,7 @@ body {
 .sass,
 .tailwind,
 .github,
+.node,
 .php,
 .bootstrap,
 .sql,

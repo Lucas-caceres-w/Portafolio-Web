@@ -18,7 +18,7 @@ function Footer() {
     year = date.getFullYear();
   return (
     <div className="bg-black2 w-full">
-      <section className="w-11/12 m-auto pt-12 grid grid-cols-2 gap-3 sm:grid-cols-2 md:grid-cols-4 items-start justify-around justify-content-center text-neutral-400">
+      <section className="w-11/12 md:w-10/12 m-auto pt-12 grid grid-cols-2 gap-3 sm:grid-cols-2 md:grid-cols-3 items-start justify-around justify-content-center text-neutral-400">
         <div className="flex flex-col gap-2 items-center">
           <Image
             src="/assets/logos/logo-blue.svg"
@@ -97,7 +97,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col items-left">
+        {/* <div className="flex flex-col items-left">
           <p className="font-semibold text-gray-200 text-2xl flex items-center gap-1">
             <Email />
             {language === "es" ? "Contacto" : "Contact"}
@@ -154,7 +154,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="flex flex-col items-left">
           <p className="font-semibold text-gray-200 text-2xl flex items-center gap-1">
             <Work />

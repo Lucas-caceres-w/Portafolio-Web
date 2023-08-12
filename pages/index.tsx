@@ -6,6 +6,7 @@ import Social from '@component/components/home/social'
 import Footer from '@component/components/layout/footer'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import Skills from '@component/components/about/skills'
 
 export default function Home() {
   const router = useRouter()
@@ -55,6 +56,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Details />
+      <Skills />
       <Social />
       <Footer />
     </>
