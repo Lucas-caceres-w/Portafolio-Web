@@ -1,4 +1,5 @@
 import { Idioma } from "@component/components/context/languaje";
+import Button from "@component/components/layout/boton";
 import Footer from "@component/components/layout/footer";
 import Nav from "@component/components/layout/navbar";
 import ContainerWorks from "@component/components/portafolio/gridworks";
@@ -95,9 +96,11 @@ function Portafolio() {
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white font-medium absolute bottom-4 right-4 bg-blue py-3 px-6 hover:rounded-xl transition-all hover:bg-pink"
+                  className="absolute bottom-4 right-4"
                 >
-                  {language === "es" ? "Ver sitio" : "Live Demo"}
+                  <Button>
+                    {language === "es" ? "Ver sitio" : "Live Demo"}
+                  </Button>
                 </a>
               )}
             </div>

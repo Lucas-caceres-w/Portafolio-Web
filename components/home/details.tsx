@@ -4,6 +4,7 @@ import { Idioma } from "../context/languaje";
 import es from "../../lib/texts/es.json";
 import en from "../../lib/texts/en.json";
 import { Computer, Escalator, Speed } from "@mui/icons-material";
+import Button from "../layout/boton";
 
 function Details() {
   const { language } = useContext<any>(Idioma);
@@ -27,11 +28,8 @@ function Details() {
             {texts.descripcionOne}
           </p>
           <div className="w-10/12 m-auto flex justify-end">
-            <Link
-              href={"/portafolio"}
-              className="text-white text-base font-medium bg-blue px-4 py-2 rounded my-2 hover:bg-sky-500"
-            >
-              {texts.buttonOne}
+            <Link href={"/portafolio"}>
+              <Button>{texts.buttonOne}</Button>
             </Link>
           </div>
         </article>
@@ -47,11 +45,8 @@ function Details() {
             {texts.descripcionTwo}
           </p>
           <div className="w-10/12 m-auto flex justify-end">
-            <Link
-              href={"/contacto"}
-              className="text-white text-base font-medium bg-blue px-4 py-2 rounded my-2 hover:bg-sky-500"
-            >
-              {texts.buttonTwo}
+            <Link href={"/contacto"}>
+              <Button>{texts.buttonTwo}</Button>
             </Link>
           </div>
         </article>
@@ -67,11 +62,8 @@ function Details() {
             {texts.descripcionThree}
           </p>
           <div className="w-10/12 m-auto flex justify-end">
-            <Link
-              href="/sobremi"
-              className="text-white text-base font-medium bg-blue px-4 py-2 rounded my-2 hover:bg-sky-500"
-            >
-              {texts.buttonThree}
+            <Link href="/sobremi">
+              <Button>{texts.buttonThree}</Button>
             </Link>
           </div>
         </article>
