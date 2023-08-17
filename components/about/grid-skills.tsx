@@ -52,14 +52,14 @@ const data = [
     image: '/assets/imagenes/git.png',
   },
   {
-    title: 'typescript',
-    color: 'typescript',
-    image: '/assets/imagenes/typescript.webp',
-  },
-  {
     title: 'github',
     color: 'github',
     image: '/assets/imagenes/github.png',
+  },
+  {
+    title: 'typescript',
+    color: 'typescript',
+    image: '/assets/imagenes/typescript.webp',
   },
   {
     title: 'sass',
