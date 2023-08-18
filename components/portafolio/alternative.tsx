@@ -28,11 +28,11 @@ function Alternative(props: PropsCards) {
       <Image
         loading="lazy"
         onClick={OpenWork}
-        className="object-cover cursor-pointer hover:scale-105 transition-all rounded-md"
+        className="object-cover h-full cursor-pointer hover:scale-105 transition-all rounded-md"
         alt={props.title}
         src={props.srcImage}
         width={450}
-        height={400}
+        height={300}
       />
     </>
   );

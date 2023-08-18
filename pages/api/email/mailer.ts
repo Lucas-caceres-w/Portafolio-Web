@@ -1,6 +1,6 @@
-import transporter from "../../../lib/mailer";
+import transporter from "@component/lib/mailer";
 
-export default async function handler(req: any, res: any) {
+export default async function POST(req: any, res: any) {
   if (req.method === "POST") {
     return SubmitEmail(req, res);
   }
@@ -13,12 +13,7 @@ const SubmitEmail = async (req: any, res: any) => {
       from: email,
       to: "lukitas3.lc@gmail.com",
       subject: asunto,
-      template: "template-mail",
-      context: {
-        name: email,
-        asunto,
-        mensaje,
-      },
+      text: mensaje,
     };
 
     transporter.sendMail(mailOptions);

@@ -4,6 +4,7 @@ import { ChangeEvent, useRef, useState } from "react";
 import { useContext } from "react";
 import { Idioma } from "../context/languaje";
 import Button from "../layout/boton";
+import axios from "axios";
 
 function Form() {
   const [form, setForm] = useState({
@@ -22,6 +23,7 @@ function Form() {
       ...form,
       [name]: value,
     }));
+    console.log(form);
   };
 
   const TextAreaChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
@@ -36,14 +38,12 @@ function Form() {
     event.preventDefault();
     setLoading(true);
     try {
-      const res = await fetch("/api/email/mailer", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
+      const res = await axios.post("/api/email/mailer", {
+        asunto: form.asunto,
+        email: form.email,
+        mensaje: form.mensaje,
       });
-      const json = await res.json();
+      const json = await res.data;
       if (res.status === 200) {
         formRef.current?.reset();
         setLoading(false);
@@ -137,7 +137,9 @@ function Form() {
             </label>
           </div>
           {/* <button className="bg-pink hover:bg-fuchsia-800 py-2 rounded text-white shadow-md shadow-neutral-700"></button> */}
-          <Button className="w-full">{language === "es" ? "Enviar" : "Submit"}</Button>
+          <Button className="w-full">
+            {language === "es" ? "Enviar" : "Submit"}
+          </Button>
           {success && (
             <div className="bg-green-500/70 p-2 text-emerald-900 rounded text-center flex flex-row items-center justify-around">
               <Check />
