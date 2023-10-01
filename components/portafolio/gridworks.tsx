@@ -18,6 +18,13 @@ function ContainerWorks({
   const texts = language === "es" ? es : en;
   const works = [
     {
+      title: "Motor Rad",
+      description: "Descripcion en proceso...",
+      enlace: "https://motor-rad-landing.vercel.app/",
+      image: "/assets/imagenes/motor-rad.png",
+      tecs: "html,css,javascript",
+    },
+    {
       title: "Alquilo pisos BA",
       description: texts.Alquilopisos,
       enlace: "https://alquilopisosba.com.ar/",
@@ -30,20 +37,6 @@ function ContainerWorks({
       enlace: "https://wifnix-desarrollo.vercel.app/",
       image: "/assets/imagenes/wifnix.png",
       tecs: "tailwind,nextjs,sql,material ui",
-    },
-    {
-      title: "Dragon CORP",
-      description: texts.Kingdom,
-      enlace: "https://kingdom-search.vercel.app/",
-      image: "/assets/imagenes/kingdom.png",
-      tecs: "tailwind,nextjs",
-    },
-    {
-      title: "Seky inmoviliaria",
-      description: texts.Seky,
-      enlace: "https://www.seky.com.ar/",
-      image: "/assets/imagenes/seky-props.png",
-      tecs: "html,tailwind,react,nodejs,sql",
     },
     {
       title: "Glass Tester",
