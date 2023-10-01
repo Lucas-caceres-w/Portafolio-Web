@@ -11,23 +11,23 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 /* Track */
 body::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #4b4b4b;
 }
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
-  background: #2d2d2d;
+  background: #232323;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
-  background: #2a2a2a;
+  background: #161616;
   border-radius: 10px;
 }
 

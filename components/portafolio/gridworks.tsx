@@ -19,10 +19,10 @@ function ContainerWorks({
   const works = [
     {
       title: "Motor Rad",
-      description: "Descripcion en proceso...",
+      description: texts.MotorRad,
       enlace: "https://motor-rad-landing.vercel.app/",
       image: "/assets/imagenes/motor-rad.png",
-      tecs: "html,css,javascript",
+      tecs: "html,css,javascript,node",
     },
     {
       title: "Alquilo pisos BA",
