@@ -62,7 +62,7 @@ function Details() {
             {texts.descripcionThree}
           </p>
           <div className="w-10/12 m-auto flex justify-end">
-            <Link href="/sobremi">
+            <Link href="#sobremi">
               <Button>{texts.buttonThree}</Button>
             </Link>
           </div>

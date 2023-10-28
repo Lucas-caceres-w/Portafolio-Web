@@ -193,8 +193,8 @@ body {
 }
 
 .github:hover {
-  background-color: #000;
-  color: #ededed;
+  background-color: #f7f7f7;
+  color: #000;
   transform: translateY(-5px) !important;
 }
 
