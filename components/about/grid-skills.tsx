@@ -1,77 +1,82 @@
-import Card from './card-skills'
+import Card from "./card-skills";
 
 const data = [
   {
-    title: 'html',
-    color: 'html',
-    image: '/assets/imagenes/html.png',
+    title: "html",
+    color: "html",
+    image: "/assets/imagenes/html.png",
   },
   {
-    title: 'css',
-    color: 'css',
-    image: '/assets/imagenes/css.png',
+    title: "css",
+    color: "css",
+    image: "/assets/imagenes/css.png",
   },
   {
-    title: 'javascript',
-    color: 'javascript',
-    image: '/assets/imagenes/javascript.png',
+    title: "javascript",
+    color: "javascript",
+    image: "/assets/imagenes/javascript.png",
   },
   {
-    title: 'sql',
-    color: 'sql',
-    image: '/assets/imagenes/sql.webp',
+    title: "sql",
+    color: "sql",
+    image: "/assets/imagenes/sql.webp",
   },
   {
-    title: 'php',
-    color: 'php',
-    image: '/assets/imagenes/php.png',
+    title: "php",
+    color: "php",
+    image: "/assets/imagenes/php.png",
   },
   {
-    title: 'tailwind',
-    color: 'tailwind',
-    image: '/assets/imagenes/tailwind.png',
+    title: "tailwind",
+    color: "tailwind",
+    image: "/assets/imagenes/tailwind.png",
   },
   {
-    title: 'react',
-    color: 'react',
-    image: '/assets/imagenes/react.png',
+    title: "react",
+    color: "react",
+    image: "/assets/imagenes/react.png",
   },
   {
-    title: 'next',
-    color: 'next',
-    image: '/assets/imagenes/nextjs.png',
+    title: "next",
+    color: "next",
+    image: "/assets/imagenes/nextjs.png",
   },
   {
-    title: 'node',
-    color: 'node',
-    image: '/assets/imagenes/nodejs.png',
+    title: "node",
+    color: "node",
+    image: "/assets/imagenes/nodejs.png",
   },
   {
-    title: 'git',
-    color: 'git',
-    image: '/assets/imagenes/git.png',
+    title: "git",
+    color: "git",
+    image: "/assets/imagenes/git.png",
   },
   {
-    title: 'github',
-    color: 'github',
-    image: '/assets/imagenes/github.png',
+    title: "github",
+    color: "github",
+    image: "/assets/imagenes/github.png",
   },
   {
-    title: 'typescript',
-    color: 'typescript',
-    image: '/assets/imagenes/typescript.webp',
+    title: "typescript",
+    color: "typescript",
+    image: "/assets/imagenes/typescript.webp",
   },
   {
-    title: 'sass',
-    color: 'sass',
-    image: '/assets/imagenes/sass.png',
+    title: "sass",
+    color: "sass",
+    image: "/assets/imagenes/sass.png",
   },
   {
-    title: 'bootstrap',
-    color: 'bootstrap',
-    image: '/assets/imagenes/bootstrap.png',
+    title: "bootstrap",
+    color: "bootstrap",
+    image: "/assets/imagenes/bootstrap.png",
   },
-]
+  {
+    title: "material UI",
+    color: "material",
+    image: "/assets/imagenes/material-ui.png",
+  },
+];
 
 function Grid() {
   return (
@@ -80,7 +85,7 @@ function Grid() {
         <Card key={index} lang={e.title} color={e.color} image={e.image} />
       ))}
     </section>
-  )
+  );
 }
 
-export default Grid
+export default Grid;

@@ -213,6 +213,11 @@ body {
   transform: translateY(-5px) !important;
 }
 
+.material:hover {
+  background-color: #0072E5;
+  transform: translateY(-5px) !important;
+}
+
 .html,
 .css,
 .javascript,
@@ -226,6 +231,7 @@ body {
 .php,
 .bootstrap,
 .sql,
+.material,
 .typescript {
   transition: all 0.3s ease-in-out !important;
 }
