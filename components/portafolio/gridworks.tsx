@@ -18,6 +18,13 @@ function ContainerWorks({
   const texts = language === "es" ? es : en;
   const works = [
     {
+      title: "Celebra la vida | Jose cuervo",
+      description: texts.josecuervo,
+      enlace: "https://celebrolavida.com/",
+      image: "/assets/imagenes/celebrolavida.png",
+      tecs: "css,react,nest,mysql,type orm",
+    },
+    {
       title: "Motor Rad",
       description: texts.MotorRad,
       enlace: "https://motor-rad-landing.vercel.app/",
