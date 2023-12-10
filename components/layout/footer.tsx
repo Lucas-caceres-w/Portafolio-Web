@@ -56,7 +56,7 @@ function Footer() {
                 <LinkedIn className="hover:text-blue cursor-pointer" />
               </a>
               <a
-                href="https://wa.me/message/NLUFXMZBD57GN1"
+                href="https://wa.me/1127516798"
                 rel="noopener noreferrer"
                 target="_blank"
               >

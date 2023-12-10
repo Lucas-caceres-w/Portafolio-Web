@@ -28,7 +28,7 @@ function Social() {
         <div className="grid grid-cols-3 sm:grid-cols-6 items-center justify-evenly place-items-center gap-y-5 w-11/12 sm:w-9/12">
           <div className="w-16 h-16 rounded-full bg-black1 grid place-items-center">
             <a
-              href="https://wa.me/message/NLUFXMZBD57GN1"
+              href="https://wa.me/1127516798"
               rel="noopener noreferrer"
               target="_blank"
             >
