@@ -18,6 +18,13 @@ function ContainerWorks({
   const texts = language === "es" ? es : en;
   const works = [
     {
+      title: "Fifa Boosting Latam",
+      description: texts.fifaboost,
+      enlace: "https://fifaboostinglatam.com/",
+      image: "/assets/imagenes/fifaboosting.png",
+      tecs: "css,astro,react",
+    },
+    {
       title: "Celebra la vida | Jose cuervo",
       description: texts.josecuervo,
       enlace: "https://celebrolavida.com/",
