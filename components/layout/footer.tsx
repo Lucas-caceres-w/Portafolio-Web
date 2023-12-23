@@ -163,12 +163,22 @@ function Footer() {
           <ul className="flex flex-col gap-2 mt-2 pl-5">
             <li>
               <a
-                href="https://grafica-fyc.netlify.app/"
+                href="https://fifaboostinglatam.com/"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="hover:text-pink hover:underline cursor-pointer"
               >
-                Grafica FyC
+                Fifa Boosting Latam
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://motorradresenasdelaruta.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="hover:text-pink hover:underline cursor-pointer"
+              >
+                Motor Rad | BMW
               </a>
             </li>
             <li>
@@ -183,22 +193,12 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://wifnix.com/"
+                href="https://wifnix-desarrollo.vercel.app/"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="hover:text-pink hover:underline cursor-pointer"
               >
                 Wifnix
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://pelis-total.vercel.app/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="hover:text-pink hover:underline cursor-pointer"
-              >
-                Pelis DB
               </a>
             </li>
           </ul>
