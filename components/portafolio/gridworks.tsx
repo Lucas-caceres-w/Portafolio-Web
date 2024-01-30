@@ -20,7 +20,7 @@ function ContainerWorks({
     {
       title: "Fifa Boosting Latam",
       description: texts.fifaboost,
-      enlace: "https://fifaboostinglatam.com/",
+      enlace: "https://fifaboosting.vercel.app/",
       image: "/assets/imagenes/fifaboosting.png",
       tecs: "css,astro,react",
     },
@@ -48,7 +48,7 @@ function ContainerWorks({
     {
       title: "Wifnix",
       description: texts.Wifnix,
-      enlace: "https://wifnix-desarrollo.vercel.app/",
+      enlace: "https://wifnix-desarrollo-git-main-lucas-caceres-w.vercel.app/",
       image: "/assets/imagenes/wifnix.png",
       tecs: "tailwind,nextjs,sql,material ui",
     },
