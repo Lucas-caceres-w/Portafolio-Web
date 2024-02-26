@@ -11,7 +11,7 @@ const SubmitEmail = async (req: any, res: any) => {
   try {
     const mailOptions = {
       from: email,
-      to: "lukitas3.lc@gmail.com",
+      to: "lucas.caceres.lc@hotmail.com",
       subject: asunto,
       text: mensaje,
     };
