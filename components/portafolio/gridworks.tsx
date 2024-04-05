@@ -34,7 +34,8 @@ function ContainerWorks({
     {
       title: "Motor Rad",
       description: texts.MotorRad,
-      enlace: "https://motor-rad-landing.vercel.app/",
+      enlace: "https://motorradresenasdelaruta.com/" ,
+      //"https://motor-rad-landing.vercel.app/",
       image: "/assets/imagenes/motor-rad.png",
       tecs: "html,css,javascript,node",
     },
