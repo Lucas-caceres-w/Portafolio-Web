@@ -29,10 +29,10 @@ function Portafolio() {
 
   const ModalWork = ({ titulo, descripcion, imagen, link, tecs }: Modal) => {
     return (
-      <div className="fixed z-50 w-full h-screen top-0 backdrop-blur-md transition-all delay-75 bg-neutral-900/60 grid place-items-center">
+      <div className="fixed z-50 w-full h-screen top-0 backdrop-blur-md transition-all delay-75 bg-dark/60 grid place-items-center">
         <section
           data-aos="zoom-in"
-          className="bg-neutral-800 w-11/12 md:w-10/12 xl:w-8/12 h-max md:h-[650px] relative rounded-md scale transition-all"
+          className="bg-dark-light w-11/12 md:w-10/12 xl:w-8/12 h-max md:h-[650px] relative rounded-md scale transition-all"
         >
           <div className="z-50 absolute right-2 top-2">
             <IconButton onClick={handleClose}>
@@ -46,14 +46,14 @@ function Portafolio() {
               ) : (
                 <div className="w-full h-72 sm:h-3/6 bg-neutral-600 animate-pulse"></div>
               )}
-              <h2 className="text-white text-2xl m-4 font-semibold">
+              <h2 className="text-green-text text-2xl m-4 font-semibold">
                 {titulo ? (
                   titulo
                 ) : (
                   <div className="w-48 bg-neutral-600 animate-pulse h-6"></div>
                 )}
               </h2>
-              <p className="text-white ml-4 text-sm">
+              <p className="text-neutral-400 ml-4 text-sm">
                 {descripcion ? (
                   descripcion
                 ) : (
@@ -67,7 +67,7 @@ function Portafolio() {
               </p>
             </div>
             <div className="w-full md:w-2/4 h-52 md:h-full relative mt-0 p-2">
-              <h4 className="text-white text-xl md:text-2xl ml-2 md:mt-10">
+              <h4 className="text-blue text-xl md:text-2xl ml-2 md:mt-10">
                 {language === "es"
                   ? "Tecnologias utilizadas:"
                   : "Used tecnologies:"}
@@ -77,7 +77,7 @@ function Portafolio() {
                   tecs.split(",").map((e, index) => {
                     return (
                       <li
-                        className="uppercase cursor-pointer py-1 px-2 sm:py-2 sm:px-4 rounded-md border border-white/20 hover:bg-blue"
+                        className="uppercase cursor-pointer py-1 px-2 sm:py-2 sm:px-4 rounded-md border text-neutral-300 border-white/20 hover:bg-blue"
                         key={index}
                       >
                         {e}

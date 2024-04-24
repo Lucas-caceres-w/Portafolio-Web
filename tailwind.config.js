@@ -15,6 +15,9 @@ module.exports = {
         blue: "#007acc",
         black2: "#1c1c1c",
         black1: "#393939",
+        "green-text": "#3EA784",
+        "dark-light": "#29263c",
+        dark: "#2d2b38",
       },
       keyframes: {
         anime: {

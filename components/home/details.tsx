@@ -18,9 +18,9 @@ function Details() {
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-4 md:gap-6 lg:gap-8 my-12">
         <article
           data-aos="fade-right"
-          className="card-home bg-black2 group/hover rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
+          className="card-home bg-dark-light group/hover rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
         >
-          <p className="text-neutral-600 flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+          <p className="text-green-text flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
             <Computer />
             {texts.detailOne}
           </p>
@@ -35,9 +35,9 @@ function Details() {
         </article>
         <article
           data-aos="fade-left"
-          className="card-home bg-black2 group/hover rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
+          className="card-home bg-dark-light group/hover rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
         >
-          <p className="text-neutral-600 flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+          <p className="text-green-text flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
             <Speed />
             {texts.detailTwo}
           </p>
@@ -52,9 +52,9 @@ function Details() {
         </article>
         <article
           data-aos="fade-up"
-          className="card-home bg-black2 group/hover col-span-1 sm:col-span-2 rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
+          className="card-home bg-dark-light group/hover col-span-1 sm:col-span-2 rounded-md py-5 shadow-lg shadow-black2 hover:translate-y-2 hover:bg-pink transition-all duration-500"
         >
-          <p className="text-neutral-600 flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
+          <p className="text-green-text flex items-center gap-1 group-hover/hover:text-neutral-300 font-semibold text-xl ml-4 pb-2 transition-all duration-500">
             <Escalator />
             {texts.detailThree}
           </p>

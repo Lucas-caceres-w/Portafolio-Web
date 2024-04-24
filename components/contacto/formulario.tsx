@@ -62,7 +62,7 @@ function Form() {
   };
 
   return (
-    <section className="flex justify-center pt-6 h-[600px] w-full md:w-full lg:w-5/12 xl:w-4/12 bg-neutral-600">
+    <section className="flex justify-center pt-6 h-[600px] w-full md:w-full lg:w-5/12 xl:w-4/12 bg-dark">
       <div className="flex flex-col items-center w-11/12 h-10/12 justify-between">
         <Image
           className="py-4"
@@ -79,7 +79,7 @@ function Form() {
           <div className="w-full relative">
             <input
               id="asunto"
-              className="rounded-sm placeholder:text-transparent bg-neutral-700 w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
+              className="rounded-sm placeholder:text-transparent bg-dark-light w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
               type={"text"}
               name="asunto"
               onChange={HandleChange}
@@ -87,8 +87,8 @@ function Form() {
             />
             <label
               htmlFor="asunto"
-              className="absolute ml-2 text-sm -top-5 left-0 text-blue peer-focus:text-sm 
-              peer-focus:-top-5 transition-all peer-focus:text-blue  
+              className="absolute ml-2 text-sm -top-5 left-0 text-green-text peer-focus:text-sm 
+              peer-focus:-top-5 transition-all peer-focus:text-green-text  
               font-medium pointer-events-none 
               peer-placeholder-shown:top-1 
               peer-placeholder-shown:text-base
@@ -99,7 +99,7 @@ function Form() {
           </div>
           <div className="w-full relative">
             <input
-              className="rounded-sm placeholder:text-transparent bg-neutral-700 w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
+              className="rounded-sm placeholder:text-transparent bg-dark-light w-full py-2 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
               type={"email"}
               name="email"
               onChange={HandleChange}
@@ -107,8 +107,8 @@ function Form() {
             />
             <label
               htmlFor="mensaje"
-              className="absolute ml-2 text-sm -top-5 left-0 text-blue peer-focus:text-sm 
-              peer-focus:-top-5 transition-all peer-focus:text-blue  
+              className="absolute ml-2 text-sm -top-5 left-0 text-green-text peer-focus:text-sm 
+              peer-focus:-top-5 transition-all peer-focus:text-green-text  
               font-medium pointer-events-none 
               peer-placeholder-shown:top-1 
               peer-placeholder-shown:text-base
@@ -122,12 +122,12 @@ function Form() {
               name="mensaje"
               placeholder="nada"
               onChange={TextAreaChange}
-              className="h-36 w-full placeholder:text-transparent resize-none rounded-sm bg-neutral-700 border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
+              className="h-36 w-full placeholder:text-transparent resize-none rounded-sm bg-dark-light border-b-2 border-pink shadow-md shadow-neutral-700 outline-none text-neutral-400 peer"
             ></textarea>
             <label
               htmlFor="mensaje"
-              className="absolute ml-2 text-sm -top-5 left-0 text-blue peer-focus:text-sm 
-              peer-focus:-top-5 transition-all peer-focus:text-blue  
+              className="absolute ml-2 text-sm -top-5 left-0 text-green-text peer-focus:text-sm 
+              peer-focus:-top-5 transition-all peer-focus:text-green-text  
               font-medium pointer-events-none 
               peer-placeholder-shown:top-1 
               peer-placeholder-shown:text-base

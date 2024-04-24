@@ -32,7 +32,7 @@ function Nav() {
   };
 
   return (
-    <nav className="h-20 bg-black2 flex items-center">
+    <nav className="h-20 bg-dark flex items-center">
       <Loader loading={load} />
       <section className="w-full md:w-9/12 m-auto flex flex-row justify-around md:justify-between items-center">
         <div className="w-24 w-min-20">

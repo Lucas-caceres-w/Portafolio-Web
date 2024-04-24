@@ -32,8 +32,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 :root {
-  --bg-black: #393939;
-  --black: #1c1c1c;
+  --bg-black: #2d2b38;
+  --black: #2d2b38;
 }
 
 body {
@@ -125,14 +125,14 @@ body {
   }
 }
 
-.hero {
+/* .hero {
   background: rgb(28, 28, 28);
   background: linear-gradient(
     180deg,
     rgba(28, 28, 28, 1) 0%,
     rgba(57, 57, 57, 1) 100%
   );
-}
+} */
 
 .hero-image {
   background-image: url(/assets/imagenes/bg-logo.png);

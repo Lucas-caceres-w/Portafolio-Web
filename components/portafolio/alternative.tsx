@@ -21,6 +21,7 @@ function Alternative(props: PropsCards) {
       tecs: props.tecs,
     });
   };
+
   return (
     <>
       <Image

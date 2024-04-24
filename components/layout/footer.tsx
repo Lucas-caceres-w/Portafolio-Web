@@ -39,28 +39,28 @@ function Footer() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <FacebookOutlined className="hover:text-blue cursor-pointer" />
+                <FacebookOutlined className="hover:text-green-text cursor-pointer" />
               </a>
               <a
                 href="https://www.instagram.com/lucas.dev.03/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Instagram className="hover:text-blue cursor-pointer" />
+                <Instagram className="hover:text-green-text cursor-pointer" />
               </a>
               <a
                 href="https://www.linkedin.com/in/lucasdev03/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <LinkedIn className="hover:text-blue cursor-pointer" />
+                <LinkedIn className="hover:text-green-text cursor-pointer" />
               </a>
               <a
                 href="https://wa.me/1127516798"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <WhatsApp className="hover:text-blue cursor-pointer" />
+                <WhatsApp className="hover:text-green-text cursor-pointer" />
               </a>
             </div>
           </div>
@@ -74,7 +74,7 @@ function Footer() {
             <li>
               <Link
                 href={"/sobremi"}
-                className="hover:text-pink hover:underline cursor-pointer"
+                className="hover:text-green-text hover:underline cursor-pointer"
               >
                 {language === "es" ? "Habilidades" : "Skills"}
               </Link>
@@ -82,7 +82,7 @@ function Footer() {
             <li>
               <Link
                 href={"/portafolio"}
-                className="hover:text-pink hover:underline cursor-pointer"
+                className="hover:text-green-text hover:underline cursor-pointer"
               >
                 {language === "es" ? "Trabajos" : "Works"}
               </Link>
@@ -90,7 +90,7 @@ function Footer() {
             <li>
               <Link
                 href={"/#social"}
-                className="hover:text-pink hover:underline cursor-pointer"
+                className="hover:text-green-text hover:underline cursor-pointer"
               >
                 {language === "es" ? "Redes" : "Social"}
               </Link>
@@ -166,7 +166,7 @@ function Footer() {
                 href="https://fifaboostinglatam.com/"
                 rel="noopener noreferrer"
                 target="_blank"
-                className="hover:text-pink hover:underline cursor-pointer"
+                className="hover:text-green-text hover:underline cursor-pointer"
               >
                 Fifa Boosting Latam
               </a>
@@ -176,7 +176,7 @@ function Footer() {
                 href="https://motorradresenasdelaruta.com/"
                 rel="noopener noreferrer"
                 target="_blank"
-                className="hover:text-pink hover:underline cursor-pointer"
+                className="hover:text-green-text hover:underline cursor-pointer"
               >
                 Motor Rad | BMW
               </a>
@@ -186,7 +186,7 @@ function Footer() {
                 href="https://conecty.com.ar/"
                 rel="noopener noreferrer"
                 target="_blank"
-                className="hover:text-pink hover:underline cursor-pointer"
+                className="hover:text-green-text hover:underline cursor-pointer"
               >
                 Conecty IoT
               </a>
@@ -196,7 +196,7 @@ function Footer() {
                 href="https://wifnix-desarrollo.vercel.app/"
                 rel="noopener noreferrer"
                 target="_blank"
-                className="hover:text-pink hover:underline cursor-pointer"
+                className="hover:text-green-text hover:underline cursor-pointer"
               >
                 Wifnix
               </a>
