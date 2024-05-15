@@ -23,5 +23,6 @@
   "Alquilopisos": "Update and Redesign to the real estate website, focused on rentals in Argentina, CABA and GBA, The site developed in PHP was updated, from version 5 to version 8, Its design which was pure CSS, outdated, was renewed and made with TailwindCSS using its CLI to create the style layer, also optimized the site for a fast and effective load,  reaching an average of 85/90 according to PageSpeed.",
   "MotorRad": "Interactive website, in commemoration of the 100 years of Rad Engine, It was made with 100% native javascript, with its route management dashboard and comment control in each of them, On the server side uses nodejs, with its express framework for the management of authentication and creation of the APIs it uses.",
   "josecuervo": "Web application to celebrate life in commemoration of the Day of the Dead, lighting a candle to remember our loved ones, for the José Cuervo brand, developed with React on the frontend and Nest js on the backend, using Mysql as a database and firebase for authentication",
-  "fifaboost": "Landing page for FIFA EA 24 video game boosting company, The site was developed with the Astro static website framework, using TailwindCss as a css framework"
+  "fifaboost": "Landing page for FIFA EA 24 video game boosting company, The site was developed with the Astro static website framework, using TailwindCss as a css framework",
+  "sekyprop": "Redesign and optimization of a real estate website for Seky Propiedades developed with php and mysql on the server and in the styles with CSS and tailwindcss."
 }

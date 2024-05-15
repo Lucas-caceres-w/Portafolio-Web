@@ -1,40 +1,45 @@
-import Image from "next/image";
+'use client';
+import Image from 'next/image';
 
-interface PropsCards {
-  title: string;
-  srcImage: string;
-  description: string;
-  enlace?: string;
-  tecs?: string;
-  modal: () => void;
-  info: ({}) => void;
+interface ImageObject {
+    img: string;
 }
 
-function Alternative(props: PropsCards) {
-  const OpenWork = () => {
-    props.modal();
-    props.info({
-      titulo: props.title,
-      descripcion: props.description,
-      imagen: props.srcImage,
-      link: props.enlace,
-      tecs: props.tecs,
-    });
-  };
+export type PropsModal = {
+    title: string;
+    srcImage: ImageObject[];
+    description: string;
+    enlace?: string;
+    tecs?: string;
+    modal: () => void;
+    info: ({}) => void;
+};
 
-  return (
-    <>
-      <Image
-        loading="lazy"
-        onClick={OpenWork}
-        className="object-cover h-full cursor-pointer hover:scale-105 transition-all rounded-md"
-        alt={props.title}
-        src={props.srcImage}
-        width={450}
-        height={300}
-      />
-    </>
-  );
+function Alternative(props: PropsModal) {
+    const images = props.srcImage;
+    const OpenWork = () => {
+        props.modal();
+        props.info({
+            titulo: props.title,
+            descripcion: props.description,
+            imagen: images,
+            link: props.enlace,
+            tecs: props.tecs,
+        });
+    };
+    return (
+        <>
+            <Image
+                loading="lazy"
+                onClick={OpenWork}
+                className="object-cover h-full cursor-pointer hover:scale-105 transition-all rounded-md"
+                alt={props.title}
+                src={images[0].img}
+                width={450}
+                height={300}
+            />
+        </>
+    );
 }
 
 export default Alternative;
