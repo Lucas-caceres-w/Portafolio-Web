@@ -24,5 +24,6 @@
   "MotorRad": "Sitio web interactivo, en conmemoración de los 100 años de Motor Rad, Fue realizado con javascript nativo 100%, con su dashboard de administración de rutas y control de comentarios en cada una de ellas, Del lado del servidor utiliza nodejs, con su framework express para el manejo de autenticacion y creacion de las API's que utiliza.",
   "josecuervo": "Aplicación web para celebrar la vida en conmemoración del dia de los muertos, encendiendo una vela para recordar nuestros seres queridos, para la marca Jose Cuervo, desarrollado con React en el frontend y Nest js en el backend, utilizando Mysql como base de datos y firebase para la autenticación",
   "fifaboost": "Landing page para empresa de boosting del juego de video FIFA EA 24, El sitio fue desarrollado con el framework de paginas webs estáticas Astro, utilizando como framework de css, TailwindCss",
-  "sekyprop": "Rediseño y optimización de sitio web de inmobiliaria para Seky Propiedades desarrollado con php y mysql en el servidor y en los estilos con CSS y tailwindcss."
+  "sekyprop": "Rediseño y optimización de sitio web de inmobiliaria para Seky Propiedades desarrollado con php y mysql en el servidor y en los estilos con CSS y tailwindcss.",
+  "limpitodo": "Diseño de E-commerce desarrollado y configurado en Tienda Nube, Configuracion de dominio y carga de productos."
 }

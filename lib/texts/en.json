@@ -24,5 +24,6 @@
   "MotorRad": "Interactive website, in commemoration of the 100 years of Rad Engine, It was made with 100% native javascript, with its route management dashboard and comment control in each of them, On the server side uses nodejs, with its express framework for the management of authentication and creation of the APIs it uses.",
   "josecuervo": "Web application to celebrate life in commemoration of the Day of the Dead, lighting a candle to remember our loved ones, for the José Cuervo brand, developed with React on the frontend and Nest js on the backend, using Mysql as a database and firebase for authentication",
   "fifaboost": "Landing page for FIFA EA 24 video game boosting company, The site was developed with the Astro static website framework, using TailwindCss as a css framework",
-  "sekyprop": "Redesign and optimization of a real estate website for Seky Propiedades developed with php and mysql on the server and in the styles with CSS and tailwindcss."
+  "sekyprop": "Redesign and optimization of a real estate website for Seky Propiedades developed with php and mysql on the server and in the styles with CSS and tailwindcss.",
+  "limpitodo": "E-commerce design developed and configured in Cloud Store, domain configuration and product upload."
 }
