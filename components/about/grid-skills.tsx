@@ -2,38 +2,13 @@ import Card from "./card-skills";
 
 const data = [
   {
-    title: "html",
-    color: "html",
-    image: "/assets/imagenes/html.png",
-  },
-  {
-    title: "css",
-    color: "css",
-    image: "/assets/imagenes/css.png",
-  },
-  {
     title: "javascript",
-    color: "javascript",
+    color: "next",
     image: "/assets/imagenes/javascript.png",
   },
   {
-    title: "sql",
-    color: "sql",
-    image: "/assets/imagenes/sql.webp",
-  },
-  {
-    title: "php",
-    color: "php",
-    image: "/assets/imagenes/php.png",
-  },
-  {
-    title: "tailwind",
-    color: "tailwind",
-    image: "/assets/imagenes/tailwind.png",
-  },
-  {
     title: "react",
-    color: "react",
+    color: "next",
     image: "/assets/imagenes/react.png",
   },
   {
@@ -43,38 +18,33 @@ const data = [
   },
   {
     title: "node",
-    color: "node",
+    color: "next",
     image: "/assets/imagenes/nodejs.png",
   },
   {
-    title: "git",
-    color: "git",
-    image: "/assets/imagenes/git.png",
-  },
-  {
-    title: "github",
-    color: "github",
-    image: "/assets/imagenes/github.png",
+    title: "nest",
+    color: "next",
+    image: "/assets/imagenes/nest.png",
   },
   {
     title: "typescript",
-    color: "typescript",
+    color: "next",
     image: "/assets/imagenes/typescript.webp",
   },
   {
-    title: "sass",
-    color: "sass",
-    image: "/assets/imagenes/sass.png",
+    title: "sql",
+    color: "next",
+    image: "/assets/imagenes/sql.webp",
   },
   {
-    title: "bootstrap",
-    color: "bootstrap",
-    image: "/assets/imagenes/bootstrap.png",
+    title: "php",
+    color: "next",
+    image: "/assets/imagenes/php.png",
   },
   {
-    title: "material UI",
-    color: "material",
-    image: "/assets/imagenes/material-ui.png",
+    title: "laravel",
+    color: "next",
+    image: "/assets/imagenes/laravel.png",
   },
 ];
 
